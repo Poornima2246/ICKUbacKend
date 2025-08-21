@@ -1,7 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "api/index.js": { "runtime": "nodejs20.x" }
+    "index.js": { "runtime": "nodejs20.x" }
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "/api/index.js" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "index.js" }]
 }

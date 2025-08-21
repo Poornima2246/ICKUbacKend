@@ -6,7 +6,7 @@
   "scripts": {
      "dev": "vercel dev",
     "build": "echo \"Vercel builds serverless functions automatically\"",
-    "start": "node api/index.js"
+    "start": "node index.js"
    
   },
   "author": "",
